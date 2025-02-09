@@ -66,6 +66,90 @@ background: none !important;
 
 ```
 
+### ⭐ FakeNitro
+
+Unlock Nitro features and display Nitro badges without a subscription (visible to BetterDiscord users only).
+
+**Features:**
+- Nitro and Boost badges display
+- Custom emoji usage anywhere
+- Animated emoji support
+- 100MB upload limit
+- Customizable boost badge months
+- Automatic badge rotation option
+- Profile customization
+- High-quality streaming (works with StreamUnblocker)
+
+**Settings:**
+- Toggle badge display
+- Select boost badge months (1-24 months)
+- Enable/disable badge rotation
+- Customize badge update interval
+
+**Note:** Features are client-side only and visible to BetterDiscord users.
+
+**Troubleshooting:**
+1. If badges aren't showing:
+   - Try reloading Discord (Ctrl+R)
+   - Toggle the plugin off/on
+   - Check if "Show Nitro Badges" is enabled in settings
+2. If emojis aren't working:
+   - Ensure the plugin is properly initialized
+   - Restart Discord
+3. If upload limit isn't increased:
+   - Check Discord's server status
+   - Verify file isn't corrupted
+
+### 🏆 UnlockAllBadges
+
+Display all Discord badges on your profile (visible to BetterDiscord users only).
+
+**Features:**
+- Staff Badges:
+  - Discord Staff
+  - Discord Employee
+  - Discord Partner
+  - System Badge
+  - Certified Moderator
+- Event Badges:
+  - HypeSquad Events
+  - HypeSquad Bravery
+  - HypeSquad Brilliance
+  - HypeSquad Balance
+  - Partner Badge
+- Developer Badges:
+  - Bug Hunter Level 1
+  - Bug Hunter Level 2
+  - Early Verified Bot Developer
+  - Verified Developer
+  - Moderator Programs Alumni
+- Special Badges:
+  - Active Developer
+  - Early Supporter
+  - Premium Early Supporter
+  - Discord Birthday
+  - Legacy Username
+
+**Settings:**
+- Toggle different badge categories
+- Individual control over badge types
+- Easy-to-use interface
+- Real-time badge updates
+
+**Note:** Badges are client-side only and visible to BetterDiscord users.
+
+**Troubleshooting:**
+1. If badges aren't showing:
+   - Try reloading Discord (Ctrl+R)
+   - Toggle the plugin off/on
+   - Check if badge categories are enabled in settings
+2. If badges flicker:
+   - Disable conflicting plugins
+   - Check Discord's cache
+3. If settings don't save:
+   - Check BetterDiscord permissions
+   - Verify write access to plugin folder
+
 ## Installation
 
 1. Make sure you have [BetterDiscord](https://betterdiscord.app/) installed
@@ -73,6 +157,8 @@ background: none !important;
    - [ListenAlong.plugin.js](https://raw.githubusercontent.com/Enyzelle/BetterDiscord-Plugins/main/ListenAlong/ListenAlong.plugin.js)
    - [StreamUnblocker.plugin.js](https://raw.githubusercontent.com/Enyzelle/BetterDiscord-Plugins/main/StreamUnblocker/StreamUnblocker.plugin.js)
    - [ColoredNameEverywhere.plugin.js](https://raw.githubusercontent.com/Enyzelle/BetterDiscord-Plugins/main/ColoredNameEverywhere/ColoredNameEverywhere.plugin.js)
+   - [FakeNitro.plugin.js](https://raw.githubusercontent.com/Enyzelle/BetterDiscord-Plugins/main/FakeNitro/FakeNitro.plugin.js)
+   - [UnlockAllBadges.plugin.js](https://raw.githubusercontent.com/Enyzelle/BetterDiscord-Plugins/main/UnlockAllBadges/UnlockAllBadges.plugin.js)
 3. Place the downloaded file in your BetterDiscord plugins folder:
    - Windows: `%appdata%/BetterDiscord/plugins`
    - Linux: `~/.config/BetterDiscord/plugins`
@@ -103,6 +189,12 @@ If you encounter any issues or have suggestions:
 **StreamUnblocker:**
 - If quality options are missing: Toggle the plugin
 - If FPS is locked: Check Discord's performance mode setting
+
+**UnlockAllBadges:**
+- If badges don't show immediately: Wait a few seconds after enabling
+- If certain badges are missing: Toggle their category in settings
+- If badges reset: Check if settings are saving properly
+- For profile view: Make sure to open a fresh profile window
 
 ## License
 
